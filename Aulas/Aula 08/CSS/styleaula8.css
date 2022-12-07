@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+htlm,body{
+    height: 100%;
+    overflow: auto;
+}
+
+.bg{
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background-color:red;
+    background-image: url(../Imagens/Vasco.png);
+    background-size: cover;
+    background-position:center ;
+    background-repeat:no-repeat;
+}

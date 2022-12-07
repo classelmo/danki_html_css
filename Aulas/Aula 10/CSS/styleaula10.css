@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+htlm,body{
+    height: 100%;
+    overflow: auto;
+}
+
+.item1,.item2,.item3 {
+    width: 200px;
+    margin-top: 20px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+    background-color: #ccc;
+}
+/*
+.item1:hover{
+    background-color: blue;
+    width: 220px;
+    height: 320px;
+    margin-left:30px;
+    margin-top: 30px;
+}
+.item1:hover, .item2,.item3{
+    vertical-align:top;
+}
+*/
+
+/*.item1:active{
+    background-color: black;
+}
+*/
+
+/*
+.item1:focus{
+    background-color: red;
+}
+
+.textarea1{
+    display: block;
+    width: 500px;
+    height: auto;
+}
+
+*/
+
+/*
+.item2{
+    background-color: rgb(100, 100, 100);
+}
+
+.item3{
+    background-color: rgb(120, 120, 120);
+}
+*/
+
+button{
+    margin-top: 50px;
+    margin-left: 40%;
+    background-color: whitesmoke;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+
+button:hover{
+    background-color: blue;
+    color:whitesmoke
+
+}
+
+button:active{
+    background-color: red;
+    color:whitesmoke;
+}

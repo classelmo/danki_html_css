@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+html,body{
+    height:100%; /*altura da JANELA não vem pro padrão em 100%*/
+}
+
+.artigo{
+    width: 100%;
+    background-color: darkgray;
+    text-align: center; 
+}
+
+.artigo h1{
+    color: blue;
+    font-size: 100px;
+    font-family:cursive;
+    font-weight: normal;
+    font-variant: small-caps;
+}
+
+.artigo p{
+    color:rgb(33, 4, 61);
+    text-align: left;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 10px;
+    line-height: 40px;
+}
+
+.lista,.lista2,.lista3{
+    list-style-position: inside;
+    margin-left:100px
+}
+
+.lista li,.lista2 li,.lista3 li{
+    color: green;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 50px
+}
+
+/* mais específico do que se somente colocasse .item3 */
+
+.lista .item3, .lista2 .item3{
+    color: red;
+}

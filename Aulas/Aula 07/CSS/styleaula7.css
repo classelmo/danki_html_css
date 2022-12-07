@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+htlm,body{
+    height: 100%;
+    overflow: auto;
+}
+
+/*table{
+    width: 900px;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td{
+    height: 100px;
+    vertical-align: bottom;
+    background-color: rgb(200, 200, 200);
+    border: 4px solid black;
+}*/
+
+.menu-fixed{
+    /*position: fixed;
+    right: 200px; --> 0
+    left: 300px; --> auto
+    top: 200px; --> auto
+    bottom: 200px;--> 0*/
+
+    /*position: absolute;
+    left: 300px;
+    bottom: 200px;*/
+
+   /* position: relative;
+    left: 30px;
+    top:100px;*/
+
+    width: 100%;
+    height: 200px;
+    background:blue;
+}
+
+.box{
+    width: 100%;
+    height: 1400px;
+    background: green;
+}

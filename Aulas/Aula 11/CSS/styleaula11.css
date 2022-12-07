@@ -1,0 +1,131 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+htlm,body{
+    height: 100%;
+    overflow: auto;
+}
+/*Estilo para conteúdo do site*/
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form fieldset{
+    margin-top: 50px;
+    padding: 0 30px;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+form legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    text-align: left;
+}
+
+form input[type=text]{
+    display:inline-block;
+    margin-top:15px;
+    margin-bottom: 10px;
+    width: 80%;
+    padding: 10px 30px;
+}
+
+form input[type=text]:focus{
+    outline-color: red;
+}
+
+form select{
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+form select option{
+    font-weight: bolder;
+}
+
+form select option:nth-of-type(2){
+    color: blue;
+}
+
+form select option:nth-of-type(3){
+    color: green;
+}
+
+form select option:nth-of-type(4){
+    color: purple;
+}
+
+div h2{
+    margin: 10px auto;
+}
+
+.input{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.input span{
+    margin-left: 12px;
+    font-size:17px;  
+}
+
+.prato,.input{
+    padding-left:17px;  
+}
+
+form textarea{
+    margin-bottom: 10px;
+    width: 80%;
+    height: 140px;
+    padding: 10px 13px;
+    resize: none;
+    border:2px solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea:focus{
+    outline-color: red;
+}
+
+form input[type=submit]{
+
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: transparent;
+    width: 100px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+form input[type=submit]:hover{
+    background-color: red;
+    color: white;
+    box-shadow: none;
+}
+
+form input[type=submit]:active{
+    background-color: lightpink;
+    color:white;
+    transition: 0.2em;
+}
+
+
+
+
+
+

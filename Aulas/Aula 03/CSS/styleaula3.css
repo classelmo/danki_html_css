@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+htlm,body{
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background: rgb(89, 86, 110);
+}
+
+.header h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size:60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: beige;
+}
+
+.center{
+    box-sizing: border-box;
+    width: 100%;
+    margin:0 auto;
+    text-align: center;
+    /*padding-left: 25px;*/
+    padding-bottom: 20px;
+    background-color: rgb(177, 185, 177);
+}
+
+.article{
+    display: inline-block; /*dispaly block é o padrão*/
+    box-sizing: border-box;
+    vertical-align: top;
+    width: 620px;
+    margin-top: 40px;
+    border: 5px solid rgba(255, 255, 255, 0);
+}
+
+.article p{
+    text-align: justify;
+    width: 100%;
+}

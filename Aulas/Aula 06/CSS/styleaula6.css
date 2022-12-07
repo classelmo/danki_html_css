@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*Estilo para conteúdo do site*/
+
+htlm,body{
+    height: 100%;
+    overflow: auto;
+}
+
+.header{
+    width: 100%;
+    height: 60px;
+    background: rgb(137, 194, 5);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+}
+
+.header a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 0 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+}
+
+.header h1{
+    display: inline-block;
+    text-align: right;
+    font-size: 25px;
+    padding-left: 550px;
+    
+}
+
+.title{
+    box-sizing: border-box;
+    width: 100%;
+    height: 120px;
+    background: rgb(1, 99, 53);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+
+.title h1{
+    color: yellow;
+    border: 10px solid rgba(255,0,0,0);
+
+}
+
+.title p{
+    font-weight: bolder;
+    border: 5px solid rgba(255,0,0,0);
+}
+
+.content{
+    width: 100%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+    
+    
+}
+
+.item1{
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 690px;
+    background: purple;
+    float: left;
+    border: 10px solid rgba(255,0,0,0);
+}
+
+.item1 img{
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.item2{
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 690px;
+    background: orangered;
+    float: left;
+    border: 10px solid rgba(255,0,0,0);
+}
+
+.item2 img{
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.item3{
+    box-sizing: border-box;
+    width: 33.33%;
+    height: 690px;
+    background: blue;
+    float: left;
+    border: 10px solid rgba(255,0,0,0);
+}
+
+.item3 h2{
+    background-color: white;
+    color: blue;
+}
+
+.item3 img{
+    width: 400px;
+    padding-top: 100px;
+    padding-left: 20px;
+}
